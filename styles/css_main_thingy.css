@@ -1,0 +1,21 @@
+p {
+    color: rgb(12, 12, 20);
+}
+
+h1 {
+    color: rgb(158, 0, 0);
+}
+
+body {
+    background-color: white;
+}
+
+#suntzu {
+    color: gray;
+    font-style: italic;
+}
+
+.current {
+    font-style: italic;
+    color: rgb(235, 172, 0);
+}
