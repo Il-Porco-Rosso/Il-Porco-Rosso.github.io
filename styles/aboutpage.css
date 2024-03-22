@@ -28,3 +28,9 @@ body {
   img {
     border: 10px solid goldenrod;
   }
+
+  #info {
+    border: 5px solid purple;
+    background-color: #eeeeee;
+    padding: 30px;
+  }
