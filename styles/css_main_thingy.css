@@ -25,3 +25,8 @@ body {
 html {
     font-size: 0.42cm;
 }
+
+#aboutlink {
+    border: 5px solid #11c9cf;
+    padding: 10px;
+}
