@@ -48,3 +48,21 @@ body {
     margin-left: 2em;
     padding: 1em;
   }
+
+  #gottem {
+    color: black;
+    transition: 1s;
+  }
+
+  #gottem:hover {
+    size: 69px;
+  }
+
+  .secret {
+    color: transparent;
+    transition: 1s;
+  }
+
+  :hover.secret {
+    color: inherit;
+  }
