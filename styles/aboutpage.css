@@ -39,3 +39,12 @@ body {
     background-color: #eeeeee;
     padding: 30px;
   }
+
+  .uglybox {
+    border: 5px dotted black;
+    margin-top: 20px;
+    margin-right: 1em;
+    margin-bottom: 40px;
+    margin-left: 2em;
+    padding: 1em;
+  }
