@@ -54,15 +54,12 @@ body {
     transition: 1s;
   }
 
-  #gottem:hover {
-    size: 69px;
-  }
-
   .secret {
     color: transparent;
     transition: 1s;
   }
 
-  :hover .secret {
+  :hover.secret {
     color: inherit;
+    size: 69px;
   }
