@@ -13,7 +13,7 @@ body {
     padding: 60px;
 }
 
-#suntzu {
+h1 + p {
     color: gray;
     font-style: italic;
 }
