@@ -38,5 +38,6 @@ h1 + p {
     transform: translateY(-1rem);
     background-color: rgb(28, 129, 74);
     color: white;
-    transform: translateY(3px)
+    transform: translateY(3px);
+    cursor: pointer;
 }
