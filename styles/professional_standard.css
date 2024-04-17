@@ -37,5 +37,6 @@ h1 + p {
 .btn:hover {
     transform: translateY(-1rem);
     background-color: rgb(28, 129, 74);
-    color: white
+    color: white;
+    transform: translateY(3px)
 }

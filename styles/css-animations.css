@@ -21,9 +21,9 @@
     padding: 4px;
     color: #00aaff;
     background-color: white;
-    transition: 5s;
+    transition: 1s;
 }
-.animated-nav-menu a {
+.animated-nav-menu a:hover {
     text-decoration: none;
     border-radius: 10%;
     padding: 4px;
@@ -38,7 +38,14 @@
     color: white;
     cursor: pointer;
 }
-
+.button-press-animation button:active {
+    transform: translateY(3px);
+    background-color: #3498db;
+}
+.button-press-animation button a {
+    text-decoration: none;
+    color:  white;
+}
 
 /* Task 4: Simple Loading Spinner */
 .simple-loading-spinner .spinner {
