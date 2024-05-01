@@ -52,3 +52,16 @@ a {
     text-decoration: none;
     color:rgb(28, 129, 74);
 }
+
+div.showcase {
+    background-color: rgb(32, 80, 65);
+    padding: 1rem;
+    padding-left: 2rem;
+}
+
+.showcase p :not(h1 + p){
+    color: whitesmoke;
+}
+.showcase li {
+    color: whitesmoke;
+}
