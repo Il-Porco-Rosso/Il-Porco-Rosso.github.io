@@ -1,0 +1,2 @@
+let shuHan = ["Liu Bei", "Zhuge Liang", "Guan Yu", "Zhang Fei", "Huang Zhong", "Ma Chao", "Zhao Yun"];
+let shuHanColors = ["green","#BFBFBF","#559F6F","#F4556F","#CFBF6F","darkolivegreen","whitesmoke"];
