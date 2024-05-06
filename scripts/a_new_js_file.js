@@ -36,3 +36,11 @@ ulEl.appendChild(MaChaoEl);
 ulEl.appendChild(ZhaoYunEl);
 
 document.body.appendChild(ulEl);
+
+LiuBeiEl.innerText = "Liu Bei";
+ZhugeLiangEl.innerText = "Zhuge Liang";
+GuanYuEl.innerText = "Guan Yu";
+ZhangFeiEl.innerText = "Zhang Fei";
+HuangZhongEl.innerText = "Huang Zhong";
+MaChaoEl.innerText = "Ma Chao";
+ZhaoYunEl.innerText = "Zhao Yun";
