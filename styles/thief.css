@@ -1,0 +1,26 @@
+html {
+    font-size: 0.42cm;
+}
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 60px;
+    background-color: black;
+}
+.header {
+    background-color: #452d17;
+    color: white;
+    padding: 6em;
+        
+
+}
+.headertext {
+    display: flex;
+        justify-content: center;
+}
+h1.headertext {
+    font-size: 6em;
+}
+h3.headertext {
+    font-size: 2em;
+    color: rgb(218, 218, 218);
+}
