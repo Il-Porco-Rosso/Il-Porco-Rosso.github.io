@@ -28,15 +28,49 @@ h3.headertext {
 .infobox{
     background-color: #251f18;
     padding: 2em;
+    
+}
+.sectioncontent {
     display: flex;
         justify-content: space-around;
         align-items: center;
+        padding-left: 15em; 
+        padding-right: 15em;
+        
+        
 }
 .infoboxheader {
     font-size: 2em;
     color: whitesmoke;
+    display: flex;
+        justify-content: center;
 }
 #intro {
     color: whitesmoke;
+margin: 69px;
+}
+img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 40%;
+}
+.hubthingy {
+    background-color: #251f18;
+    padding: 1.5em;
+    display: flex;
+    align-items: center;
+    justify-content:space-between;
+}
+
+a.hublink {
+    color:white;
+    text-decoration: none;
+
+
+}
+
+#logotext{
+    font-size: 1.3em;
 
 }
