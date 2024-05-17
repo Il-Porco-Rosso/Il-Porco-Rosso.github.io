@@ -30,6 +30,12 @@ h3.headertext {
     padding: 2em;
     
 }
+.infobox.activeauction {
+    background-color: #afa78f;
+    color: white;
+        
+    
+}
 .sectioncontent {
     display: flex;
         justify-content: space-around;
@@ -38,6 +44,13 @@ h3.headertext {
         padding-right: 15em;
         
         
+}
+.sectioncontent.activeauction {
+
+        justify-content: center;
+        align-items: start;
+
+            
 }
 .infoboxheader {
     font-size: 2em;
@@ -53,9 +66,9 @@ img {
     display: block;
     margin-left: auto;
     margin-right: auto;
-    width: 40%;
+    height: 250px;
 }
-.hubthingy {
+div.hubthingy {
     background-color: #251f18;
     padding: 1.5em;
     display: flex;
@@ -66,11 +79,20 @@ img {
 a.hublink {
     color:white;
     text-decoration: none;
-
+margin-right: 2em
 
 }
 
 #logotext{
     font-size: 1.3em;
 
+}
+.bidlist {
+    padding: 3em;
+    border: 10px solid #251f18;
+    background-color: whitesmoke;
+    color: black;
+}
+.margin {
+    margin: 3em
 }
