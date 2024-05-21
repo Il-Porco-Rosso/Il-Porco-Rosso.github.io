@@ -88,11 +88,16 @@ margin-right: 2em
 
 }
 .bidlist {
-    padding: 3em;
+    
     border: 10px solid #251f18;
     background-color: whitesmoke;
     color: black;
+    font-size: larger;
 }
 .margin {
     margin: 3em
+}
+
+.showcase {
+
 }
