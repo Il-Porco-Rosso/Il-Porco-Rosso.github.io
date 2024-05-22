@@ -99,5 +99,6 @@ margin-right: 2em
 }
 
 .showcase {
-
+    border: 1px solid red;
+    
 }
