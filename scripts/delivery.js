@@ -5,7 +5,7 @@
 
 
 
-var countDownDate = new Date().getTime() + 2345;
+var countDownDate = new Date().getTime() + 234578;
 
 var x = setInterval(function() {
 
