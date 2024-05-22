@@ -5,7 +5,7 @@
 
 
 
-var countDownDate = new Date().getTime() + 12345;
+var countDownDate = new Date().getTime() + 2345;
 
 var x = setInterval(function() {
 
@@ -15,14 +15,12 @@ var x = setInterval(function() {
 
   var distance = countDownDate - now;
 
-  var days = Math.floor(distance / (1000 * 60 * 60 * 24));
+  
   var hours = Math.floor((distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
   var minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
   var seconds = Math.floor((distance % (1000 * 60)) / 1000);
 
-  if (days < 10){
-    days = "0" + days;
-  }
+
   if (hours < 10){
     hours = "0" + hours;
   }
@@ -33,12 +31,14 @@ var x = setInterval(function() {
     seconds = "0" + seconds;
   }
  
-  document.getElementById("hottime").innerHTML = days + "d " + hours + ":"
+  document.getElementById("hottime").innerHTML = hours + ":"
   + minutes + ":" + seconds;
 
  
   if (distance < 0) {
     clearInterval(x);
     document.getElementById("hottime").innerHTML = "SOLD";
+    document.getElementById("hottime").style.color = "red";
+    document.getElementById("hotbidlist").style.backgroundColor = "gray";
   }
 }, 1000);
