@@ -30,6 +30,13 @@ h3.headertext {
     padding: 2em;
     
 }
+.infoboxB{
+    background-color: #452d17;
+    padding: 2em;
+    display: flex;
+        justify-content: center;
+    
+}
 .infobox.activeauction {
     background-color: #afa78f;
     color: white;
@@ -95,6 +102,7 @@ margin-right: 2em
     font-size: larger;
     width: 769px;
 }
+
 .margin {
     margin: 3em
 }
@@ -106,4 +114,47 @@ margin-right: 2em
 
 #hottime {
     color: #251f18;
+}
+
+.whitetext {
+    color: white;
+}
+
+h2 {
+    font-size: 4em;
+}
+
+#excuse {
+    color: rgb(192, 192, 192);
+    font-size: 2em;
+    width: 30%;
+}
+
+.btn {
+    border: 4px solid whitesmoke;
+    background-color: whitesmoke;
+    padding: 5px;
+    padding-left: 20px;
+    padding-right: 20px;
+    margin: 2rem;
+    text-decoration: none;
+    color: black;
+    border-radius: 6px;
+    font-size: larger;
+    transition: 0.3s ease;
+}
+
+.btn:hover {
+    transform: translateY(-10px);
+    background-color: rgb(141, 141, 141);
+    border-color: rgb(141, 141, 141);
+    color: white;
+    cursor: pointer;
+}
+
+.btn:active {
+    transform: translateY(-5px);
+    background-color: rgb(102, 102, 102);
+    border: 4px solid rgb(102, 102, 102);
+    cursor: pointer;
 }
