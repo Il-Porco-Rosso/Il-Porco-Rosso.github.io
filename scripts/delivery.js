@@ -1,9 +1,5 @@
 
 
-//plan to have timer reset ~ an hour after countdown is done
-
-
-
 
 var countDownDate = new Date().getTime() + 234578;
 
