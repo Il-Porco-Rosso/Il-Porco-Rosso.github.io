@@ -22,7 +22,8 @@ background-repeat: no-repeat;
 
  }
  #about {
-
+    background-image: url(../images/aboutorangething.png);
+    background-repeat: no-repeat;
  }
 
 .headertext {
