@@ -19,7 +19,12 @@ background-repeat: no-repeat;
 
  }
  #deliveries {
-
+    background-image: url(../images/truckthingy.png);
+    background-repeat: no-repeat;
+ }
+ #auctions {
+    background-image: url(../images/aboutorangething.png);
+    background-repeat: no-repeat;
  }
  #about {
     background-image: url(../images/aboutorangething.png);

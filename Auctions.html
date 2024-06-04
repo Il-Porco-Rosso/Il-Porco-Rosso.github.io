@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Auctions Page - Thief Delivery</title>
+    <link href="styles/thief.css" rel="stylesheet">
+</head>
+<body>
+  <div class="hubthingy">
+    <a class="hublink" id="logotext" href="index.html">Thief Delivery</a>
+    <span>
+        <a class="hublink" href="/Deliveries.html">Deliveries</a>
+        <a class="hublink" href="/Auctions.html">Auctions</a>
+        <a class="hublink" href="/about.html">About</a>
+    </span>
+</div>
+<div class="header" id="auctions">
+    <h1 class="headertext">Auctions</h1>
+    
+</div>
+<div class="infobox activeauction">
+    <div class="activeauction">
+        <h1 class="headertext">Hottest Auctions!</h1>
+        <div class="sectioncontent activeauction">
+            <div class="showcase ">
+                <img src="images/mug.png" alt="placeholder image">
+                <h3 class="infoboxheader">Time left:</h3>
+                <h3 class="infoboxheader" id="hottime">Loading...</h3>
+            </div>
+            <div class="bids ">
+                <h3 class="infoboxheader">= Current Bids =</h3>
+                <p>(From highest to lowest)</p>
+                <div class="bidlist" id="hotbidlist">
+                    <ul>
+                        <li class="margin" id="bid1">Joe Shmoe - $6999.04</li>
+                        <li class="margin" id="bid2">Aeigh Luvsekks - $6304.60</li>
+                        <li class="margin" id="bid3">Howard E. Snuts - $6044.21</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<script src="scripts/delivery.js"></script>
+</body>
