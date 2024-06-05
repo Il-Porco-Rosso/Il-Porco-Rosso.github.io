@@ -230,18 +230,23 @@ footer {
 
 
 #waitlistpopup {
-    border:rgb(141, 141, 141) solid 1px;
-    border-radius: 2em;
-    background-color: rgb(141, 141, 141);
+    border: #afa78f solid 1em;
+
+    background-color: white;
     display: none;
 }
 .formpopup {
-    color: white;
+    color: black;
     margin: 2em;
 }
+#waitlistpopup > .btn{
+    margin: 1em;
+}
+
 #waitlistpopup.fade-in {
     display: block;
     animation: fade-in 0.7s ease-in forwards;
+    width: fit-content;
   }
   
   #waitlistpopup.fade-out {
