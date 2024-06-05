@@ -44,9 +44,11 @@ let x = setInterval(function() {
   document.getElementById("hottime").innerHTML = hours + ":"
   + minutes + ":" + seconds;
 //----------------
-  document.getElementById("IIndtime").innerHTML = hoursII + ":"
-  + minutesII + ":" + secondsII;
-
+  if (document.getElementById("IIndtime")){
+    document.getElementById("IIndtime").innerHTML = hoursII + ":"
+    + minutesII + ":" + secondsII;
+  
+  }
  
   if (distance < 0) {
     clearInterval(x);
