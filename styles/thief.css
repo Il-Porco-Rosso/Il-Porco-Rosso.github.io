@@ -276,3 +276,9 @@ footer {
       display: none;
     }
   }
+
+  .centerr {
+    display: flex;
+        flex-direction: column;
+        justify-content: center;
+  }
