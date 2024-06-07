@@ -13,7 +13,32 @@ let snamelist = [
     "LeBron James",
     "King DeDeDe",
     "Escargoon",
-    "Hans Ohff"
+    "Hans Ohff",
+    "Jane Doe",
+    "John Wick",
+    "Elton John",
+    "Lego piece #32557",
+    "James Charles",
+    "Kanye East",
+    "Botswana",
+    "Garry Mead",
+    "Goose Goose",
+    "Duck Goose",
+    "Gordon Ramsey",
+    "Doom Guy",
+    "Kratos",
+    "Master Cheif",
+    "Mace Windu",
+    "Nick Fury",
+    "Guy Fiery",
+    "Doug Doug",
+    "Parkzer",
+    "Smallant",
+    "PointCrow",
+    "Uncle Dane",
+    "Mr. Beast",
+    "Sr. Pelo",
+    "Ip Man"
 ]
 
 
