@@ -9,21 +9,19 @@ let x = setInterval(function() {
     IIbid = document.querySelector("#bid2");
     IIIbid = document.querySelector("#bid3");
 
-    coinflip();
+    coin = Math.round(Math.random());
 
     if (coin == 1) {
-        coinflip();
+        coin = Math.round(Math.random());
         if (coin == 1) {
-            coinflip();
+            coin = Math.round(Math.random());
             if (coin == 1) {
                 console.log("boom");
             }
         }
     }
 
-function coinflip() {
-        coin = Math.round(Math.random());
-    } 
+
 
   }, 500);
   
