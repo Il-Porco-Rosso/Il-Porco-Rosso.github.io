@@ -17,7 +17,14 @@ setInterval(function() {
             coin = Math.round(Math.random());
             if (coin == 1) {
                 console.log("boom");
+                if (coin == 1) {
+                    console.log("boom");
+    
 
+
+
+                    
+                }
             }
         }
     }
