@@ -57,7 +57,36 @@ let namelist = [
     "Agent 47",
     "Asian #5498352",
     "Secret Agent Man",
-    "Secret Asian Man"
+    "Secret Asian Man",
+    "Sun Tzu",
+    "Drake",
+    "City Government of Plano, Tx",
+    "Kendrick",
+    "Kendrick Deeznuts",
+    "Vaporeon",
+    "Son Goku",
+    "Taylor Sift",
+    "Gru",
+    "Lord Farquaad",
+    "Juan Pablo Revera IV",
+    "Heisenburg from Breakingh Bad Season 2 Ep. 12",
+    "Al Capone",
+    "Al Capone II",
+    "Al Capone III",
+    "Al Capone IV",
+    "Al Cap",
+    "El Cappie",
+    "Captain Murca",
+    "Iron Deficiency Man",
+    "Minecraft Steve",
+    "Sans Undertale",
+    "Technoblade",
+    "Techno Blade",
+    "Humpty Dumpty",
+    "Logan Paul",
+    "Mike Tyson",
+    "Yi Long Ma"
+
 ]
 
 

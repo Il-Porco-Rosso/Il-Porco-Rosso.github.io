@@ -38,7 +38,20 @@ let snamelist = [
     "Uncle Dane",
     "Mr. Beast",
     "Sr. Pelo",
-    "Ip Man"
+    "Ip Man",
+    "Sum Ting Wong",
+    "Wi Tu Low",
+    "Ho Li Fuk",
+    "Bang Ding Ow",
+    "Johnny Appleseed",
+    "Chess.com",
+    "Balu Paikeday",
+    "Mike Oxlong",
+    "Hugh Jass",
+    "Hugh Jackminumen",
+    "Sing from Kung Fu Hustle",
+    "Chuck Norris",
+    "Bruce Lee"
 ]
 
 
