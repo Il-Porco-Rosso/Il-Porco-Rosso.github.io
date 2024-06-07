@@ -3,7 +3,7 @@ let IIbid = document.querySelector("#bid2");
 let IIIbid = document.querySelector("#bid3");
 let coin = 1
 
-let x = setInterval(function() {
+setInterval(function() {
 
     Ibid = document.querySelector("#bid1");
     IIbid = document.querySelector("#bid2");
@@ -17,11 +17,10 @@ let x = setInterval(function() {
             coin = Math.round(Math.random());
             if (coin == 1) {
                 console.log("boom");
+
             }
         }
     }
-
-
 
   }, 500);
   
