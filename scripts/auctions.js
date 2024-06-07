@@ -33,6 +33,7 @@ let namelist = [
     "Kingsley Shacklebolt",
     "Shrek",
     "Biggus Dickus",
+    "Sussus Amogus",
     "Karrie Maisak",
     "Hairy Potter",
     "Gandalf the Grey",
@@ -97,6 +98,10 @@ setInterval(function() {
         document.getElementById("bid2").innerText = document.getElementById("bid1").innerText;
         document.getElementById("bid1").innerText = namelist[nameId] + " - $" + bidAmount.toLocaleString() + "." + decimal;
         contender = namelist[nameId];
+        if (contender == "Shrek") {
+            bidAmount *= 1.8;
+            document.getElementById("bid1").innerText = namelist[nameId] + " - $" + bidAmount.toLocaleString() + ".69";
+        }
     }
 
 }, 250);

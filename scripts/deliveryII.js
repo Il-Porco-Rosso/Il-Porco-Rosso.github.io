@@ -3,10 +3,10 @@ let secondaryCoundDownDate = new Date().getTime() + Math.floor((Math.random() * 
 let x = setInterval(function() {
 
 
-  let now = new Date().getTime();
+  let nowII = new Date().getTime();
 
 
-  let secondaryDistance = secondaryCoundDownDate - now;
+  let secondaryDistance = secondaryCoundDownDate - nowII;
   
 
   let hoursII = Math.floor((secondaryDistance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
@@ -26,11 +26,10 @@ let x = setInterval(function() {
   }
 
 //----------------
-  if (document.getElementById("IIndtime")){
+ 
     document.getElementById("IIndtime").innerHTML = hoursII + ":"
     + minutesII + ":" + secondsII;
-  
-  }
+
  
 
   if (secondaryDistance < 0) {
