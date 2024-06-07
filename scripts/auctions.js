@@ -21,7 +21,7 @@ setInterval(function() {
                 
                     console.log("bid incoming!");
     
-                    placeNPCbid(Math.round(Math.random()*10 - 1))
+                    placeNPCbid(Math.round(Math.random()*10))
 
                 
             }
