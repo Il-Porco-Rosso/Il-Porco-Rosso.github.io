@@ -53,7 +53,7 @@ setInterval(function() {
         document.getElementById("2bid1").innerText = snamelist[nameId] + " - $" + sbidAmount.toLocaleString() + "." + sdecimal;
         scontender = snamelist[nameId];
         if (scontender == "Mr. Fodd") {
-            sbidAmount *= 1.5; 
+            sbidAmount *= 3; 
             document.getElementById("2bid1").innerText = snamelist[nameId] + " - $" + sbidAmount.toLocaleString() + ".10";
         }
     }
