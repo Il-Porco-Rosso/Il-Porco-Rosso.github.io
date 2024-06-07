@@ -1,6 +1,6 @@
 let bidAmount
 let coin = 1
-let namelist = ["Joe Shmoe", "Jane Doe", "Jeff Beansauce", "Howard E. Snuts", "Nagisa Shiota", "Morris Merrier", "Porco Rosso", "John Wemmick"]
+let namelist = ["Joe Shmoe", "Jane Doe", "Jeff Beansauce", "Howard E. Snuts", "Nagisa Shiota", "Morris Merrier", "Porco Rosso", "John Wemmick", "Karma Akabane"]
 setInterval(function() {
 
     coin = Math.round(Math.random());
@@ -28,7 +28,7 @@ function placeNPCbid(nameId) {
 
     document.getElementById("bid3").innerText = document.getElementById("bid2").innerText;
     document.getElementById("bid2").innerText = document.getElementById("bid1").innerText;
-    document.getElementById("bid1").innerText = 0
+    document.getElementById("bid1").innerText = namelist[nameId];
 }
 
   }, 500);
