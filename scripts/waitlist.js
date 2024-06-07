@@ -14,7 +14,6 @@ submit.addEventListener("click", submitTheWaitList());
 
 
 function addMeToTheWaitlist() {
-
     popup.classList.remove("fade-out");
     popup.classList.add("fade-in"); 
     

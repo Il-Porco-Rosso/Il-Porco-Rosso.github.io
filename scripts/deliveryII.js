@@ -1,6 +1,6 @@
 
 let secondaryCoundDownDate = new Date().getTime() + Math.floor((Math.random() * 3000000) ^ (Math.random() * 300));
-let x = setInterval(function() {
+let xi = setInterval(function() {
 
 
   let nowII = new Date().getTime();
@@ -33,7 +33,7 @@ let x = setInterval(function() {
  
 
   if (secondaryDistance < 0) {
-    clearInterval(x);
+    clearInterval(xi);
     document.getElementById("IIndtime").innerHTML = "SOLD";
     document.getElementById("IIndtime").style.color = "red";
     document.getElementById("IIndbidlist").style.backgroundColor = "gray";

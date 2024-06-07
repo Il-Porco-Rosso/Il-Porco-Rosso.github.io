@@ -1,8 +1,8 @@
-let bidAmount = 359;
-let decimal = 1;
-let coin = 1;
-let contender = "joe";
-let namelist = [
+let sbidAmount = 359;
+let sdecimal = 1;
+let scoin = 1;
+let scontender = "joe";
+let snamelist = [
     "VDV Disk",
     "REDREY Disk",
     "Barack Obama",
@@ -21,39 +21,39 @@ setInterval(function() {
 
     if (document.getElementById("IIndtime").style.color != "red") {
 
-    coin = Math.round(Math.random());
-    bidAmount += (Math.random() * 10);
-    bidAmount = Math.round(bidAmount);
+    scoin = Math.round(Math.random());
+    sbidAmount += (Math.random() * 10);
+    sbidAmount = Math.round(sbidAmount);
 
-    decimal = Math.round(Math.random() * 100);
-    if (decimal <= 9) {
-        decimal = "0" + decimal;
+    sdecimal = Math.round(Math.random() * 100);
+    if (sdecimal <= 9) {
+        sdecimal = "0" + sdecimal;
     }
-    if (decimal > 99) {
-        decimal = "00";
+    if (sdecimal > 99) {
+        sdecimal = "00";
     }
-    if (coin == 1) {
-        coin = Math.round(Math.random());
-        if (coin == 1) {
-            coin = Math.round(Math.random());
-            if (coin == 1) {
+    if (scoin == 1) {
+        scoin = Math.round(Math.random());
+        if (scoin == 1) {
+            scoin = Math.round(Math.random());
+            if (scoin == 1) {
     
-                    placeNPCbid(Math.floor(Math.random()*namelist.length))
+                    splaceNPCbid(Math.floor(Math.random()*snamelist.length))
                 
             }
         }
     }
     
 } else {
-    document.getElementById("IIndtime").innerHTML = "SOLD to " + contender;
+    document.getElementById("IIndtime").innerHTML = "SOLD to " + scontender;
 }
 
-    function placeNPCbid(nameId) {
+    function splaceNPCbid(nameId) {
 
         document.getElementById("2bid3").innerText = document.getElementById("2bid2").innerText;
         document.getElementById("2bid2").innerText = document.getElementById("2bid1").innerText;
-        document.getElementById("2bid1").innerText = namelist[nameId] + " - $" + bidAmount.toLocaleString() + "." + decimal;
-        contender = namelist[nameId];
+        document.getElementById("2bid1").innerText = snamelist[nameId] + " - $" + sbidAmount.toLocaleString() + "." + sdecimal;
+        scontender = snamelist[nameId];
     }
 
 }, 1000);
