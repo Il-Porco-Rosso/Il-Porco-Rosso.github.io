@@ -25,3 +25,4 @@ function submitTheWaitList() {
     days += Math.floor(Math.random() * 9);
     closeTheWaitList();
 }
+//add a check to make sure the user has filled in the boxes and tyhen take the name and shove it into the waitlist function
