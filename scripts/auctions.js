@@ -28,7 +28,7 @@ function placeNPCbid(nameId) {
 
     document.getElementById("bid3").innerText = document.getElementById("bid2").innerText;
     document.getElementById("bid2").innerText = document.getElementById("bid1").innerText;
-    document.getElementById("bid1").innerText = 
+    document.getElementById("bid1").innerText = 0
 }
 
   }, 500);
