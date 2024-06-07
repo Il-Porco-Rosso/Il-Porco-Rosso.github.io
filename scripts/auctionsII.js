@@ -1,4 +1,4 @@
-let bidAmount = 7000;
+let bidAmount = 359;
 let decimal = 1;
 let coin = 1;
 let contender = "joe";
@@ -62,7 +62,7 @@ let namelist = [
 
 setInterval(function() {
 
-    if (document.getElementById("hottime").style.color != "red") {
+    if (document.getElementById("2ndtime").style.color != "red") {
 
     coin = Math.round(Math.random());
     bidAmount += (Math.random() * 10);
@@ -88,18 +88,18 @@ setInterval(function() {
     }
     
 } else {
-    document.getElementById("hottime").innerHTML = "SOLD to " + contender;
+    document.getElementById("2ndtime").innerHTML = "SOLD to " + contender;
 }
 
     function placeNPCbid(nameId) {
 
-        document.getElementById("bid3").innerText = document.getElementById("bid2").innerText;
-        document.getElementById("bid2").innerText = document.getElementById("bid1").innerText;
-        document.getElementById("bid1").innerText = namelist[nameId] + " - $" + bidAmount.toLocaleString() + "." + decimal;
+        document.getElementById("2bid3").innerText = document.getElementById("2bid2").innerText;
+        document.getElementById("2bid2").innerText = document.getElementById("2bid1").innerText;
+        document.getElementById("2bid1").innerText = namelist[nameId] + " - $" + bidAmount.toLocaleString() + "." + decimal;
         contender = namelist[nameId];
     }
 
-}, 250);
+}, 1000);
     
   
   
