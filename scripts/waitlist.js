@@ -8,9 +8,9 @@ let waitTel = "";
 
 let days = 30
 
-button.addEventListener("click", addMeToTheWaitlist());
-cancel.addEventListener("click", closeTheWaitList());
-submit.addEventListener("click", submitTheWaitList());
+button.addEventListener("click", addMeToTheWaitlist);
+cancel.addEventListener("click", closeTheWaitList);
+submit.addEventListener("click", submitTheWaitList);
 
 
 function addMeToTheWaitlist() {
@@ -25,8 +25,8 @@ function closeTheWaitList() {
 }
 
 function submitTheWaitList() {
-    waitName = document.getElementById("name").innerText;
-    waitTel = document.getElementById("tel").innerText;
+    waitName = document.getElementById("name").value;
+    waitTel = document.getElementById("tel").value;
     if (waitName != "" & waitTel != "") {
 
     document.getElementById("waitlist").innerHTML = document.getElementById("waitlist").innerHTML + 
