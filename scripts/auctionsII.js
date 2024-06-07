@@ -54,7 +54,7 @@ setInterval(function() {
         scontender = snamelist[nameId];
         if (scontender == "Mr. Fodd") {
             sbidAmount *= 3; 
-            document.getElementById("2bid1").innerText = snamelist[nameId] + " - $" + sbidAmount.toLocaleString() + ".10";
+            document.getElementById("2bid1").innerText = snamelist[nameId] + " - $" + sbidAmount.toLocaleString() + ".00";
         }
     }
 
